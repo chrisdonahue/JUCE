@@ -35,7 +35,7 @@ class ComponentNameProperty  : public ComponentTextProperty <Component>
 {
 public:
     ComponentNameProperty (Component* comp, JucerDocument& doc)
-        : ComponentTextProperty <Component> ("name", 40, false, comp, doc)
+        : ComponentTextProperty <Component> ("name", 128, false, comp, doc)
     {
     }
 
@@ -86,7 +86,7 @@ class ComponentMemberNameProperty  : public ComponentTextProperty <Component>
 {
 public:
     ComponentMemberNameProperty (Component* comp, JucerDocument& doc)
-        : ComponentTextProperty <Component> ("member name", 40, false, comp, doc)
+        : ComponentTextProperty <Component> ("member name", 128, false, comp, doc)
     {
     }
 
@@ -135,7 +135,7 @@ class ComponentVirtualClassProperty  : public ComponentTextProperty <Component>
 {
 public:
     ComponentVirtualClassProperty (Component* comp, JucerDocument& doc)
-        : ComponentTextProperty <Component> ("virtual class", 40, false, comp, doc)
+        : ComponentTextProperty <Component> ("virtual class", 128, false, comp, doc)
     {
     }
 
